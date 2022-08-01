@@ -1,0 +1,14 @@
+.body-back {
+  height: 300vh;
+}
+
+.anim-js {
+  transform: translateY(120%);
+  opacity: 0;
+  transition: all .8s ease 0s;
+}
+
+.anim-js.scroll {
+  transform: translateY(0);
+  opacity: 1;
+}
